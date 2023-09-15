@@ -1,0 +1,4 @@
+{
+  "bbc.co.uk": ["[data-testid='participate:comments']"],
+  "bbc.com": "bbc.co.uk"
+}
