@@ -1,5 +1,5 @@
 {
   // filter out HYS comments and counts
-  "bbc.co.uk": ["[class*='-GroupChildrenForWrapping']"],
+  "bbc.co.uk": ["[class*='-GroupChildrenForWrapping']", ".comments-icon", "#view-comments"],
   "bbc.com": "bbc.co.uk"
 }
