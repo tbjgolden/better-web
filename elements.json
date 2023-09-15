@@ -1,4 +1,5 @@
 {
-  "bbc.co.uk": ["[data-testid='participate:comments']"],
+  // filter out HYS comments and counts
+  "bbc.co.uk": ["[class*='-GroupChildrenForWrapping']"],
   "bbc.com": "bbc.co.uk"
 }
