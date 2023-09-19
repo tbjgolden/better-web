@@ -2,5 +2,6 @@
   // filter out HYS comments and counts
   "bbc.co.uk": ["[class*='-GroupChildrenForWrapping']", ".comments-icon", "#view-comments", ".gs-c-comment-count"],
   "bbc.com": "bbc.co.uk",
-  "youtube.com": ["#comments", "ytd-guide-entry-renderer:has(a[title='Shorts'])", "#comments-button"]
+  "youtube.com": ["#comments", "ytd-guide-entry-renderer:has(a[title='Shorts'])", "#comments-button"],
+  "*": ["iframe[src*='youtube.com/live_chat']"]
 }
