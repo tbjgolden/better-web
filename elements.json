@@ -1,6 +1,6 @@
 {
-  // filter out HYS comments and counts
-  "bbc.co.uk": ["[class*='-GroupChildrenForWrapping']", ".comments-icon", "#view-comments", ".gs-c-comment-count"],
+  // filter out HYS comments, votes and counts
+  "bbc.co.uk": ["[class*='-GroupChildrenForWrapping']", ".comments-icon", "#view-comments", ".gs-c-comment-count", ".lx-stream-post__footer"],
   "bbc.com": "bbc.co.uk",
   // filter out Youtube live chats and comments
   "youtube.com": ["#comments", "ytd-guide-entry-renderer:has(a[title='Shorts'])", "#comments-button"],
