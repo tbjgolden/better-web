@@ -4,5 +4,7 @@
   "bbc.com": "bbc.co.uk",
   // filter out Youtube live chats and comments
   "youtube.com": ["#comments", "ytd-guide-entry-renderer:has(a[title='Shorts'])", "#comments-button"],
+  // daily mail
+  "dailymail.co.uk": ["#reader-comments", ".articleWide > .beta"],
   "*": ["iframe[src*='youtube.com/live_chat']"]
 }
