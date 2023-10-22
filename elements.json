@@ -3,7 +3,7 @@
   "bbc.co.uk": ["[class*='-GroupChildrenForWrapping']", ".comments-icon", "#view-comments", ".gs-c-comment-count", ".lx-stream-post__footer", "[class*='-CommentsWrapper']"],
   "bbc.com": "bbc.co.uk",
   // filter out Youtube live chats and comments
-  "youtube.com": ["#comments", "ytd-guide-entry-renderer:has(a[title='Shorts'])", "#comments-button"],
+  "youtube.com": ["#comments", "ytd-guide-entry-renderer:has(a[title='Shorts'])", "#comments-button", "ytm-comments-entry-point-header-renderer"],
   // daily mail
   "dailymail.co.uk": ["#reader-comments", ".articleWide > .beta"],
   "*": ["iframe[src*='youtube.com/live_chat']"]
